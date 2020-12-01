@@ -17,5 +17,4 @@ tb_user_musica(id INT PK,userId INT FK [tb_user.id], musicaId INT FK[tb_musica.i
 
 tb_user_genero(id INT PK, userId INT FK[tb_user.id], generoId INT FK[tb_genero.id]);
 
-
-
+Agora entre no java, vá até o pacote DAO, entre na classe ConexaoBD e edite seus dados de login do MySQL.
