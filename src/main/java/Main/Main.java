@@ -14,5 +14,9 @@ import View.LoginTela;
 public class Main {
     public static void main(String[] args) {
         LoginTela lT = new LoginTela();
+        public lT() {
+        initComponents();
+        setLocationRelativeTo(null);
+    }
     }
 }
