@@ -166,7 +166,7 @@ public class LoginTela extends javax.swing.JFrame {
         try{
             if(UserDAO.existe(user)){
                 JOptionPane.showMessageDialog(null, String.format("Usuario %s já cadastrado.", user.getLogin()));
-            }if(login.isBlank() && senha.isEmpty()){
+            }else if(login.isBlank() && senha.isEmpty()){
                 JOptionPane.showMessageDialog(null,"Preencha os campos.");
             }else{
                 UserDAO.inserir(user);{
